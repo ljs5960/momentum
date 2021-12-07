@@ -5,11 +5,11 @@ const quotes = [
   },
   {
     quote: "저쩌고어쩌고",
-    author: "나다씹새끼야2",
+    author: "나다2",
   },
   {
     quote: "저쩌고저쩌고",
-    author: "나다개새끼야3",
+    author: "나다3",
   },
 ];
 const quote = document.querySelector("#quote span:first-child");

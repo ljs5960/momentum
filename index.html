@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="kr">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,7 +13,15 @@
     <input type="submit" value="LogIn">
   </form>
   <h2 id="clock">00:00:00</h2>
+  <div id="weather">
+    <span></span>
+    <span></span>
+  </div>
   <h1 id="greeting" class="hidden"></h1>
+  <form action="" id="todo-form">
+    <input type="text" placeholder="입력하시오" required>
+  </form>
+  <ul id="todo-list"></ul>
   <div id="quote">
     <span></span>
     <span></span>
@@ -22,5 +30,7 @@
   <script src="js/clock.js"></script>
   <script src="js/quotes.js"></script>
   <script src="js/background.js"></script>
+  <script src="js/todo.js"></script>
+  <script src="js/weather.js"></script>
 </body>
 </html>
